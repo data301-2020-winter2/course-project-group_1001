@@ -18,7 +18,7 @@ Our dataset is about the performance of olympic athletes from the foundation of 
 
 - Christian Pasteris: I am a fourth year computer science student.
 - Funmi Ojo: I am currently in my third year as a Biology Major!
-- Person 3: one sentence about you!
+- Aisha Bryce: I am a second year psychology major.
 
 ## References
 
