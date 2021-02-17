@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+This directory will contain drafts and work in progress for each project milestone.
