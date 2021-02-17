@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+This directory will contain pictures and images found, that are relevant to the project topic.
