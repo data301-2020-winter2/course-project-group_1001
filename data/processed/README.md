@@ -1,1 +1,1 @@
-One sentence explaining what will be in this directory
+This directory will contain finalized information and data from the olympic dataset for the project.
