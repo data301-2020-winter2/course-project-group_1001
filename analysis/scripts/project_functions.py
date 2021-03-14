@@ -2,12 +2,12 @@ def loaddata():
     data = pd.read_csv('../../data/raw/olympic_dataset.csv', low_memory=False, encoding = 'utf-8')
     return data
 
-def teamMedals (data, team):
-    newdata=data[data['Team'] == team].dropna()
+def nocMedals (data, noc)
+    newdata=data[data['NOC']== team].dropna()
     return newdata
 
-def teamAthletes(data, team):
-    newdata=data[data['Team'] == team]
+def nocathletes(data, noc
+    newdata=data[data['NOC'] == team]
     return newdata
 
 def athletesMedals(data):
@@ -22,10 +22,15 @@ def athletesYear(data, year):
     newdata=data[data['Year'] == year]
     return newdata
 
-def teamMedalsYear(data, team, year):
-    newdata=data[(data['Team'] == team) & (data[('Year')] == year)].dropna()
+def nocMedalsYear(data, NOC, year):
+    newdata=data[(data['NOC'] == team) & (data[('Year')] == year)].dropna()
     return newdata
 
-def teamAthletesYear(data, team, year):
-    newdata=data[(data['Team'] == team) & (data[('Year')] == year)]
+def nocAthletesYear(data, NOC, year):
+    newdata=data[(data['NOC'] == team) & (data[('Year')] == year)]
     return newdata
+                
+def getnoc(data, cname):
+    row=data[(data['Team'] == country)]
+    noc=row['NOC'].iloc[0]
+    return noc
