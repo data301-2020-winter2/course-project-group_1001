@@ -25,3 +25,6 @@ Our dataset is about the performance of olympic athletes from the foundation of 
 [Link to the dataset](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 www.sports-reference.com
+
+
+link to presentation https://www.youtube.com/watch?v=t-dDkhcXfRo 
